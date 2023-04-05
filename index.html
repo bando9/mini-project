@@ -20,8 +20,8 @@
     <header>
         <nav>
             <div class="menu">
-                <a href="#">Segitiga</a>
-                <a href="#">Jajar Genjang</a>
+                <a href="#triangle" class="menu-triangle">Segitiga</a>
+                <a href="#parallelogram">Jajar Genjang</a>
             </div>
         </nav>
     </header>
@@ -29,32 +29,63 @@
     <!-- Main page -->
     <main>
         <section id="triangle">
-            <div>
-                <h2>Luas Segitiga</h2>
-            </div>
-            <img src="" alt="">
-            <div>
-                <h6>Rumus Luas</h6>
-                <p>L = 1/2 x T x A</p>
-            </div>
-            <div>
-                <p>diaman</p>
-                <p>L=....</p>
-                <p>L=....</p>
-                <p>L=....</p>
-            </div>
-            <div class="form-hitung">
-                <h1>Hitung Luas Segitiga</h1>
-                <form action="">
-                    <input type="text">
-                    <input type="text">
-                    <button type="submit">Hitung</button>
-                </form>
+            <div class="card">
+                <div>
+                    <h2>Luas Segitiga</h2>
+                </div>
+                <img src="" alt="">
+                <div>
+                    <h6>Rumus Luas</h6>
+                    <p>L = 1/2 x T x A</p>
+                </div>
+                <div>
+                    <p>diaman</p>
+                    <p>L=....</p>
+                    <p>L=....</p>
+                    <p>L=....</p>
+                </div>
+                <div class="form-hitung">
+                    <h1>Hitung Luas Segitiga</h1>
+                    <form action="" class="form-triangle">
+                        <input type="text">
+                        <input type="text">
+                        <button 
+                        type="submit" 
+                        class="button-triangle"
+                        onclick="return calculateTriangle()"
+                        >
+                            Hitung
+                        </button>
+                    </form>
+                </div>
             </div>
         </section>
 
         <section id="parallelogram">
-
+            <div class="card">
+                <div>
+                    <h2>Luas Segitiga</h2>
+                </div>
+                <img src="" alt="">
+                <div>
+                    <h6>Rumus Luas</h6>
+                    <p>L = 1/2 x T x A</p>
+                </div>
+                <div>
+                    <p>diaman</p>
+                    <p>L=....</p>
+                    <p>L=....</p>
+                    <p>L=....</p>
+                </div>
+                <div class="form-hitung">
+                    <h1>Hitung Luas Jajargenjang</h1>
+                    <form action="" class="form-triangle">
+                        <input type="text">
+                        <input type="text">
+                        <button type="submit" class="button-triangle">Hitung</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
